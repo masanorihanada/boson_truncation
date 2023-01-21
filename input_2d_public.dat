@@ -1,0 +1,13 @@
+'T1ad020al1S1250M1L4_1.dat'	!config input
+'T1ad020al1S1250M1L4_1.txt'	!data output
+'T1ad020al1S1250M1L4_1.dat'	!config output
+1		!InicConfig; 0 -> new config, 1 -> old config
+1		!nseed; iniconfig=0 or nseed =0 -> mersenne_seed is used
+1d0		!temperature 
+1d0	!mass2  (mass2/2*x^2)
+0d0	!lambda (coeff of x^4; lambda/4*x^4)
+1d0	!a_lat (lattice spacing of 2d spatial lattice)
+200d0		!IR cutoff
+1000		!number of sweeps
+1		!NoSkip
+1365	!mersenne_seed
